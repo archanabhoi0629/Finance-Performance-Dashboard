@@ -125,4 +125,4 @@ This enables focused analysis and deeper business exploration.
 
 ## Dashboard Preview
 
-![Finance KPI Dashboard](https://github.com/archanabhoi0629/Finance-Performance-Dashboard/blob/main/Finance_KPI_Dashboard.png.png)
+![Finance KPI Dashboard](https://github.com/archanabhoi0629/Finance-Performance-Dashboard/blob/main/Finance_KPI_Dashboard1.png.png)
