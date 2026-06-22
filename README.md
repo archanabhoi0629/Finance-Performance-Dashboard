@@ -1,105 +1,128 @@
-# Finance-Performance-Dashboard
-**Business Problem**
+# 📊 Finance KPI Dashboard
 
-Businesses generate large volumes of financial data, making it difficult to quickly assess overall performance and identify areas that need attention. Without a centralized reporting solution, stakeholders often spend significant time reviewing multiple reports to understand sales performance, target achievement, and individual contributor performance.
+## Overview
 
-**Dashboard Goal**
+The Finance KPI Dashboard is an interactive Power BI solution designed to monitor sales performance, track target achievement, and analyze business trends across different time periods. The dashboard provides a centralized view of key financial metrics, enabling stakeholders to quickly assess performance, identify gaps, and make informed business decisions.
 
-The goal of this dashboard is to provide a single, interactive view of financial and sales performance by comparing actual results against targets, monitoring trends over time, and identifying opportunities for improvement. The dashboard enables stakeholders to make faster and more informed business decisions through data-driven insights.
+---
 
-**Key Visuals**
+## 🎯 Project Objective
 
-📌 KPI Summary Cards
+Businesses often struggle to track financial performance efficiently when data is spread across multiple reports. This dashboard addresses that challenge by consolidating critical KPIs, sales trends, and performance metrics into a single interactive view.
 
-The KPI cards provide an instant overview of business performance by displaying key metrics including:
+The primary goal is to help users:
 
-Total Sales Actual: **$19M**
-Total Sales Target: $**19M**
-Variance: **-$367K**
-Variance Percentage: **1.9%**
-Months Target Reached: **2**
+- Monitor Actual Sales against Targets
+- Evaluate overall business performance
+- Track monthly sales trends
+- Identify top and low-performing sales representatives
+- Support data-driven decision-making
 
-These KPIs allow users to quickly evaluate overall business performance without navigating through detailed reports.
+---
 
-📊 Monthly Sales Performance Analysis
+## 🛠️ Tech Stack
 
+- **Power BI Desktop** – Dashboard Development & Visualization
+- **Power Query** – Data Cleaning & Transformation
+- **DAX (Data Analysis Expressions)** – KPI & Variance Calculations
+- **Data Modeling** – Building Relationships and Data Structure
+- **Excel/CSV Dataset** – Source Data
 
-The clustered column chart compares Actual Sales and Target Sales across each month from January 2023 to February 2024. Performance indicators and variance percentages help users identify months that exceeded expectations and months that fell short of targets.
+---
 
-👥 Salesperson Performance Analysis
+## 📂 Data Source
 
+The dashboard is built using a sales dataset containing information related to:
 
-The performance matrix provides a detailed breakdown of individual salesperson results, including:
+- Sales Transactions
+- Sales Targets
+- Sales Representatives
+- Product Categories
+- Monthly Performance Metrics
 
-Actual Sales
+The data was transformed and modeled in Power BI to support dynamic reporting and analysis.
 
-Sales Targets
+---
 
-Variance Percentage
+## 📈 Dashboard Features
 
-Performance Trend
+### 📌 KPI Summary Cards
 
-Status Indicators
+Provides a quick overview of key business metrics including:
 
+- Total Sales Actual
+- Total Sales Target
+- Variance
+- Variance Percentage
+- Months Target Reached
 
-This visual helps managers identify high-performing sales representatives, monitor target achievement, and recognize areas requiring additional support.
+These KPIs allow users to assess overall performance instantly.
 
-📈 Trend Analysis
+### 📊 Monthly Sales Performance Analysis
 
+A clustered column chart compares Actual Sales and Target Sales across multiple months, helping users:
 
-Embedded sparkline charts visualize performance trends for each salesperson over time. These mini trend charts make it easy to spot improving, declining, or inconsistent performance patterns at a glance.
+- Track performance over time
+- Identify periods of growth and decline
+- Understand target achievement patterns
 
-📝 Automated Insight Panel
+### 👥 Salesperson Performance Analysis
 
+A detailed performance matrix displays:
 
-The dashboard includes a dynamic insight section that summarizes key business observations and highlights important trends. This reduces the time required to manually analyze data and supports quicker decision-making.
+- Salesperson Name
+- Actual Sales
+- Target Sales
+- Variance Percentage
+- Performance Status
 
-🎯 Product Category Navigation
+This enables managers to evaluate individual contributions and identify high-performing team members.
 
+### 📈 Trend Analysis
 
-Interactive category selectors (Delish, Juicies, Tempo, and Yummies) allow users to filter and analyze performance for specific product groups, enabling deeper exploration of sales results.
+Sparkline trend indicators provide a visual representation of each salesperson's performance pattern, making it easy to identify:
 
-**Key Insights**
+- Consistent performers
+- Improving trends
+- Declining performance
 
-Total Sales Actual reached $19M, closely matching overall sales targets
+### 📝 Automated Insight Panel
 
-The business achieved its target in only 2 out of 14 months, indicating opportunities to improve target attainment
+The dashboard includes a dynamic insight section that automatically highlights key observations and performance trends, reducing the effort required for manual analysis.
 
-An overall variance of -$367K suggests performance remained slightly below expectations
+### 🎯 Product Category Navigation
 
-Sales performance varied significantly across months, with only a few periods exceeding targets
+Interactive category buttons allow users to filter performance by specific product groups:
 
-Individual salesperson performance shows a mix of strong performers and areas where additional coaching or support may be beneficial
+- Delish
+- Juicies
+- Tempo
+- Yummies
 
-Trend analysis reveals changing performance patterns, helping stakeholders identify both growth opportunities and potential risks
+This enables focused analysis and deeper business exploration.
 
+---
 
-**Business Impact**
+## 💡 Key Insights
 
-Provides a centralized view of financial and sales performance
+- Total Sales Actual reached **$19M** during the reporting period.
+- Sales targets were achieved in only **2 out of 14 months**, highlighting opportunities for performance improvement.
+- The business recorded an overall variance of **-$367K** against targets.
+- Monthly performance fluctuated significantly, with only a few months exceeding expectations.
+- Individual salesperson performance varied considerably, indicating opportunities for targeted coaching and recognition.
 
-Enables faster monitoring of target achievement and business growth
+---
 
-Helps identify performance gaps and improvement opportunities
+## 🚀 Business Impact
 
-Supports data-driven decision-making through interactive visualizations
+- Improved visibility into financial performance.
+- Faster identification of performance gaps and growth opportunities.
+- Reduced manual reporting effort through interactive dashboards.
+- Enhanced decision-making through real-time KPI monitoring.
+- Centralized reporting experience for business stakeholders.
 
-Reduces manual reporting effort by consolidating key metrics into a single dashboard
+---
 
-Improves visibility into individual and overall business performance
+## Dashboard Preview
 
-
-**Tools & Technologies Used**
-
-Power BI
-
-Power Query
-
-DAX
-
-Data Modeling
-
-Data Visualization
-
-Interactive Reporting
-
+![Finance KPI Dashboard](https://github.com/archanabhoi0629/Finance-Performance-Dashboard/blob/main/Finance_KPI_Dashboard.png.png)
