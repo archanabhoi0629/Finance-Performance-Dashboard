@@ -13,11 +13,11 @@ The goal of this dashboard is to provide a single, interactive view of financial
 
 The KPI cards provide an instant overview of business performance by displaying key metrics including:
 
-Total Sales Actual: $19M
-Total Sales Target: $19M
-Variance: -$367K
-Variance Percentage: 1.9%
-Months Target Reached: 2
+Total Sales Actual: **$19M**
+Total Sales Target: $**19M**
+Variance: **-$367K**
+Variance Percentage: **1.9%**
+Months Target Reached: **2**
 
 These KPIs allow users to quickly evaluate overall business performance without navigating through detailed reports.
 
@@ -32,10 +32,15 @@ The clustered column chart compares Actual Sales and Target Sales across each mo
 The performance matrix provides a detailed breakdown of individual salesperson results, including:
 
 Actual Sales
+
 Sales Targets
+
 Variance Percentage
+
 Performance Trend
+
 Status Indicators
+
 
 This visual helps managers identify high-performing sales representatives, monitor target achievement, and recognize areas requiring additional support.
 
@@ -56,25 +61,45 @@ Interactive category selectors (Delish, Juicies, Tempo, and Yummies) allow users
 
 **Key Insights**
 
-Total Sales Actual reached $19M, closely matching overall sales targets.
-The business achieved its target in only 2 out of 14 months, indicating opportunities to improve target attainment.
-An overall variance of -$367K suggests performance remained slightly below expectations.
-Sales performance varied significantly across months, with only a few periods exceeding targets.
-Individual salesperson performance shows a mix of strong performers and areas where additional coaching or support may be beneficial.
-Trend analysis reveals changing performance patterns, helping stakeholders identify both growth opportunities and potential risks.
+Total Sales Actual reached $19M, closely matching overall sales targets
+
+The business achieved its target in only 2 out of 14 months, indicating opportunities to improve target attainment
+
+An overall variance of -$367K suggests performance remained slightly below expectations
+
+Sales performance varied significantly across months, with only a few periods exceeding targets
+
+Individual salesperson performance shows a mix of strong performers and areas where additional coaching or support may be beneficial
+
+Trend analysis reveals changing performance patterns, helping stakeholders identify both growth opportunities and potential risks
+
+
 **Business Impact**
 
-Provides a centralized view of financial and sales performance.
-Enables faster monitoring of target achievement and business growth.
-Helps identify performance gaps and improvement opportunities.
-Supports data-driven decision-making through interactive visualizations.
-Reduces manual reporting effort by consolidating key metrics into a single dashboard.
-Improves visibility into individual and overall business performance.
+Provides a centralized view of financial and sales performance
+
+Enables faster monitoring of target achievement and business growth
+
+Helps identify performance gaps and improvement opportunities
+
+Supports data-driven decision-making through interactive visualizations
+
+Reduces manual reporting effort by consolidating key metrics into a single dashboard
+
+Improves visibility into individual and overall business performance
+
+
 **Tools & Technologies Used**
 
 Power BI
+
 Power Query
+
 DAX
+
 Data Modeling
+
 Data Visualization
+
 Interactive Reporting
+
